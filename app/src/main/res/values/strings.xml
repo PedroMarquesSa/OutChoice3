@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OutChoice</string>
+    <string name="nav_recommend">Recommendation</string>
+    <string name="item_recommend">Recommendation</string>
+    <string name="item_wardrobe">Wardrobe</string>
+    <string name="item_help">Help</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_recommendation"
+        android:icon="@drawable/baseline_transfer_within_a_station_white_24dp"
+        android:title="@string/item_recommend" />
+    <item
+        android:id="@+id/nav_wardrobe"
+        android:icon="@drawable/baseline_store_white_24dp"
+        android:title="@string/item_wardrobe" />
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/baseline_help_white_24dp"
+        android:title="@string/item_help" />
+</menu>
