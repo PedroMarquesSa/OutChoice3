@@ -25,7 +25,7 @@ import static android.webkit.ConsoleMessage.MessageLevel.LOG;
 public class MainActivity extends AppCompatActivity implements LocationListener {
 
 
-    
+
     private BottomNavigationView mMainNav;
     private FrameLayout mMainFrame;
     private RecommendationFragment recommendationFragment;
