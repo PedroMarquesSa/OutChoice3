@@ -7,16 +7,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.hitomi.cmlibrary.CircleMenu;
-
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class WardrobeFragment extends Fragment {
-
-    String arrayName [] = {"obtjeto 1","obtjeto 2","obtjeto 3"};
-
 
     public WardrobeFragment() {
         // Required empty public constructor
