@@ -14,11 +14,19 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.FrameLayout;
 
 import com.example.rodrigooliveira.outchoice.Model.OpenWeatherMap;
+import com.example.rodrigooliveira.outchoice.Model.Wind;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static android.webkit.ConsoleMessage.MessageLevel.LOG;
 
@@ -43,6 +51,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+      final Context mcontext = getApplicationContext();
 
         //Get coordinates
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -89,7 +99,11 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
                     case R.id.nav_wardrobe:
 
+
+
+
                         setFragment(wardrobeFragment);
+
                         return true;
 
                     case R.id.nav_help:
