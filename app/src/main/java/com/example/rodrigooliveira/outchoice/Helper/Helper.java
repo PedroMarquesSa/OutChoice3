@@ -12,7 +12,6 @@ public class Helper {
     public String stream =  null;
 
     public Helper(){
-
     }
 
     public String getHTTPData(String urlString){
