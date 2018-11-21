@@ -44,10 +44,14 @@ public class WardrobeFragment extends Fragment {
         RecyclerView recyclerView = viewTemp.findViewById(R.id.rv_list);
         List<item> mList =new ArrayList<>();
         mList.add(new item(R.drawable.pants, "Pants"));
+        mList.add(new item(R.drawable.shorts, "Shorts"));
         mList.add(new item(R.drawable.shoes, "Shoes"));
-        mList.add(new item(R.drawable.jackets, "Jackets"));
+        mList.add(new item(R.drawable.jacketsupdate, "Jackets"));
         mList.add(new item(R.drawable.tshirts, "T-Shirts"));
-
+        mList.add(new item(R.drawable.longsleevetshirts, "Long Sleeve T-Shirts"));
+        mList.add(new item(R.drawable.hoodies, "Hoodies"));
+        mList.add(new item(R.drawable.camisolas, "Sweatshirts"));
+        mList.add(new item(R.drawable.shirts, "Shirts"));
 
         Adapter adapter = new Adapter(getActivity(), mList);
         if(recyclerView == null) {
