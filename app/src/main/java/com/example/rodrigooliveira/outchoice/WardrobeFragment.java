@@ -39,7 +39,6 @@ public class WardrobeFragment extends Fragment {
         View viewTemp = inflater.inflate(R.layout.fragment_wardrobe, container, false);
         // Inflate the layout for this fragment
         Window w =  getActivity().getWindow();
-        w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
 
         RecyclerView recyclerView = viewTemp.findViewById(R.id.rv_list);
         List<item> mList =new ArrayList<>();
